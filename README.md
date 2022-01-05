@@ -68,7 +68,7 @@ You can find these commands along with the snapshots in the shared ppt/pdf file
 -> warnings   
 
 
-3.2 Version Requirements
+3.2 Version Requirements:   
 beautifulsoup4==4.10.0   
 bs4==0.0.1   
 certifi==2021.10.8   
