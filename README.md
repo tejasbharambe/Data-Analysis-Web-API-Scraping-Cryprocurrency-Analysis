@@ -40,6 +40,7 @@ Things to ensure to run the script:
 'Data' folder contains the scrapped data from APIs and website in csv format
 'Data_Generated_For_Processing_Not_Output' contains the intermediate data which is needed for processing of the data
 
+
 2. Steps to run the code:
 2.1 Go to the code folder
 2.2 Open command prompt in this folder location i.e. in 'code' folder
@@ -65,6 +66,7 @@ You can find these commands along with the snapshots in the shared ppt/pdf file
 -> Numpy
 -> Squarify
 -> warnings
+
 
 3.2 Version Requirements
 beautifulsoup4==4.10.0
@@ -106,9 +108,11 @@ youtube-dl==2021.6.6
 Note: The pip install commands are already included in the folder. Hence, ideally this shouldn't be a concern.
 
 
+
 4. Extensibility of the code:
 4.1 The output from this code can be used directly to draw some additional insights, analytics and conclusions from the data
 4.2 Some modules of the code can be further used for cleaning, grouping and even extracting the new data from website/API if needed
+
 
 5. Maintainability of the code:
 5.1 The crytocurrency data that my code uses is updated at each second. Hence, there might be some ambiguity which might arise while running the code. However, 
