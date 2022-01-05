@@ -41,17 +41,17 @@ Things to ensure to run the script:
 'Data_Generated_For_Processing_Not_Output' contains the intermediate data which is needed for processing of the data
 
 
-2. Steps to run the code:
-2.1 Go to the code folder
-2.2 Open command prompt in this folder location i.e. in 'code' folder
-2.3 Run either of the following commands:
+2. Steps to run the code:   
+2.1 Go to the code folder    
+2.2 Open command prompt in this folder location i.e. in 'code' folder   
+2.3 Run either of the following commands:   
 	--> python3 HW5_Final_Project.py
 	--> python3 HW5_Final_Project.py --static
 	
 You can find these commands along with the snapshots in the shared ppt/pdf file
 
 
-3.1 Package requirements:
+3.1 Package requirements:   
 -> Requests
 -> Bs4 (Beautiful soup)
 -> Pandas
