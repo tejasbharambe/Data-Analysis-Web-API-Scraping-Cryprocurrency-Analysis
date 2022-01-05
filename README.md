@@ -30,12 +30,12 @@ Things to ensure to run the script:
 
 1. Please don't change the folder structure.
 
-'Code' folder contains all the .py files. There are 5 files there. The HW5_Final_Project.py is the main file and it imports from
-	-> scraper.py - This is to scrape the data from API/wesbites and (or) csv files. It uses:
-		 -> Coin_Market_Cap.py - This is to scrape the data from website
-		 -> Cryptocompare.py - This is to scrape the data from API #1
-		 -> Currency_Ticker_Nomics.py - This is to scrape the data from API #2
-	-> HW5_Final_Project.py – This contains the code for performing the analytics and insights. This is the only main file which needs to be run. The rest all files are supporting code files. 
+'Code' folder contains all the .py files. There are 5 files there. The HW5_Final_Project.py is the main file and it imports from   
+	-> scraper.py - This is to scrape the data from API/wesbites and (or) csv files. It uses:   
+		 -> Coin_Market_Cap.py - This is to scrape the data from website    
+		 -> Cryptocompare.py - This is to scrape the data from API #1    
+		 -> Currency_Ticker_Nomics.py - This is to scrape the data from API #2   
+	-> HW5_Final_Project.py – This contains the code for performing the analytics and insights. This is the only main file which needs to be run. The rest all files are supporting code files.    
 
 'Data' folder contains the scrapped data from APIs and website in csv format
 'Data_Generated_For_Processing_Not_Output' contains the intermediate data which is needed for processing of the data
@@ -109,15 +109,15 @@ Note: The pip install commands are already included in the folder. Hence, ideall
 
 
 
-4. Extensibility of the code:
-4.1 The output from this code can be used directly to draw some additional insights, analytics and conclusions from the data
-4.2 Some modules of the code can be further used for cleaning, grouping and even extracting the new data from website/API if needed
+4. Extensibility of the code:   
+4.1 The output from this code can be used directly to draw some additional insights, analytics and conclusions from the data    
+4.2 Some modules of the code can be further used for cleaning, grouping and even extracting the new data from website/API if needed   
 
 
-5. Maintainability of the code:
+5. Maintainability of the code:   
 5.1 The crytocurrency data that my code uses is updated at each second. Hence, there might be some ambiguity which might arise while running the code. However, 
-I have done as much exception handling as possible.
-5.2 Because the data is based on the current price, the data that you might see may vary in the next run.
-5.3 The code is purely dependent on the API and website's information. If website crashes or the website changes its format of storing the data/HTML changes. 
-This will further impact the code. As long as the website and APIs are not updated drastically, the code should run correctly
-5.4 Code is also dependent on the API Key which is assigned to me. But given this is a public API, it should work
+I have done as much exception handling as possible.   
+5.2 Because the data is based on the current price, the data that you might see may vary in the next run.   
+5.3 The code is purely dependent on the API and website's information. If website crashes or the website changes its format of storing the data/HTML changes.
+This will further impact the code. As long as the website and APIs are not updated drastically, the code should run correctly   
+5.4 Code is also dependent on the API Key which is assigned to me. But given this is a public API, it should work   
