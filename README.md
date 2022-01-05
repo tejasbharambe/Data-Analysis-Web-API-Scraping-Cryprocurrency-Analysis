@@ -52,20 +52,20 @@ You can find these commands along with the snapshots in the shared ppt/pdf file
 
 
 3.1 Package requirements:   
--> Requests
--> Bs4 (Beautiful soup)
--> Pandas
--> Urllib
--> JSON
--> Time
--> Sys
--> CSV
--> SQL Alchemy
--> Seaborn
--> Matplotlib.pyplot
--> Numpy
--> Squarify
--> warnings
+-> Requests   
+-> Bs4 (Beautiful soup)   
+-> Pandas   
+-> Urllib   
+-> JSON   
+-> Time   
+-> Sys   
+-> CSV   
+-> SQL Alchemy   
+-> Seaborn   
+-> Matplotlib.pyplot   
+-> Numpy   
+-> Squarify   
+-> warnings   
 
 
 3.2 Version Requirements
